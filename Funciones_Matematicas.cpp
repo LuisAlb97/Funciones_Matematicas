@@ -57,9 +57,29 @@ void fibonaci(void)
 	    numan=numac; //Numero anterior toma valor del numero actual
 	 	 numac=f; //Numero actual toma el valor de la suma de numan y numac
 	 }
-		     	printf("\n\n");
+		     	printf("\n");
 
    system("pause");
+}
+
+
+void factorial(void)
+{
+  system ("cls");
+	int aux=1,num,i;
+    char c;
+     printf("****************** Factorial ***************\n\n");
+     printf("Ingrese un numero: ");
+       fflush(stdin);
+      scanf("%d", &num);
+
+      for(i=1; i<=num; i++)
+         {
+              aux *=i;
+          }
+           printf("El factorial de %d es: %d\n\n", num, aux);
+    
+  system("pause");	
 }
 
 
