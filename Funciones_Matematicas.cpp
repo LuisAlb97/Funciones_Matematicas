@@ -82,4 +82,20 @@ void factorial(void)
   system("pause");	
 }
 
-
+void digitos(void)
+{
+  system ("cls");   
+  int num,contador=1;
+  printf("*********************** Contador de numeros ******************\n\n");
+    printf("Introduce un numero: ");
+    scanf("%d",&num);
+ 
+    while(num/10>0)
+    {
+        num=num/10; //Cada vez que se divide el número entre 10 lo que haces es quitarle un dígito, el cual cuenta con el contador
+        contador++;
+    }
+    printf("Tiene %d caracteres",contador);
+    printf("\n\n");
+  system("pause");
+  }
