@@ -57,7 +57,7 @@ void fibonaci(void)
 	    numan=numac; //Numero anterior toma valor del numero actual
 	 	 numac=f; //Numero actual toma el valor de la suma de numan y numac
 	 }
-		     	printf("\n");
+		     	printf("\n\n");
 
    system("pause");
 }
